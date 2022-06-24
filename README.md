@@ -10,6 +10,18 @@ Once setup, tests can be run with the following command:
 
 `go test -v ./handlers/`
 
+Module 1
+
+`go test -v ./handlers/handlers.go ./handlers/handlers_test_helpers.go ./handlers/01_get_handler_test.go`
+
+Module 2
+
+`go test -v ./handlers/handlers.go ./handlers/handlers_test_helpers.go ./handlers/02_post_handler_test.go`
+
+Module 3
+
+`go test -v ./handlers/handlers.go ./handlers/handlers_test_helpers.go ./handlers/03_dispatch_handler_test.go`
+
 ## Running the server
 
 Once all tests are passing, the server can be started with
